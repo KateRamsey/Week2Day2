@@ -10,6 +10,10 @@ namespace Week2Day2
     {
         static void Main(string[] args)
         {
+            var newShop = new Shop();
+            var newTruck = new Truck();
+            var newRaceCar = new RaceCar();
+            var newSedan = new Sedan();
 
         }
     }
