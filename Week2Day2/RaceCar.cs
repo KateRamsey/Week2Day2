@@ -9,6 +9,7 @@ namespace Week2Day2
             OldTires = true;
             OilDirty = true;
             Type = "Race Car";
+            TypeOfGas = GasType.HighPerformance;
         }
     }
 }
