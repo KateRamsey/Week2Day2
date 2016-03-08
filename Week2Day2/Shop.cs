@@ -15,9 +15,9 @@
 
     public static class ShopExtention
     {
-        public static void ChangeTires<T>(this Shop<T> shop) where T : Vehicle
+        public static void ChangeTires<T>(this Shop<T> shop, T vehicle) where T : Vehicle
         {
-            Shop<T>.OldTires = false;
+            vehicle.OldTires = false;
         }
 
     }
