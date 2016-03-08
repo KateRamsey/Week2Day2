@@ -1,6 +1,6 @@
 ﻿namespace Week2Day2
 {
-    public class Shop
+    public class Shop<T> where T : Vehicle
     {
         public Shop()
         {
