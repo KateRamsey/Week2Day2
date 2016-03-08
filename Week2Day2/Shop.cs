@@ -5,5 +5,20 @@
         public Shop()
         {
         }
+
+        public void ChangeOil()
+        {
+
+        }
+
+        public void FillUp ()
+        {
+
+        }
+
+        public void ChangeTire()
+        {
+
+        }
     }
 }
