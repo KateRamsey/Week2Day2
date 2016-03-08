@@ -10,6 +10,8 @@ namespace Week2Day2
     {
         static void Main(string[] args)
         {
+
         }
     }
+
 }
