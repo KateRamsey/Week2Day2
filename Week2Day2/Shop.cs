@@ -7,7 +7,7 @@
             v.OilDirty = false;
         }
 
-        public void FillUp (T v, GasType g)
+        public void FillUp (T v)
         {
             v.GasTankEmpty = false;
         }

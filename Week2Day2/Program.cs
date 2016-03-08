@@ -10,14 +10,16 @@ namespace Week2Day2
     {
         static void Main(string[] args)
         {
-            var newTruck = new Truck();
-            var newRaceCar = new RaceCar();
-            var newSedan = new Sedan();
+            var t = new Truck();
+            var rc = new RaceCar();
+            var s = new Sedan();
             var IffyLube = new Shop<Sedan>();
             var VroomShop = new Shop<RaceCar>();
             var BubbasRepair = new Shop<Truck>();
 
-
+            IffyLube.ChangeOil(s);
+            IffyLube.ChangeTires(s);
+            IffyLube.FillUp(s);
 
 
 
