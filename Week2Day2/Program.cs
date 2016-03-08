@@ -10,15 +10,16 @@ namespace Week2Day2
     {
         static void Main(string[] args)
         {
-            var newShop = new Shop();
             var newTruck = new Truck();
             var newRaceCar = new RaceCar();
             var newSedan = new Sedan();
+            var IffyLube = new Shop<Sedan>();
+            var VroomShop = new Shop<RaceCar>();
+            var BubbasRepair = new Shop<Truck>();
 
-            List<Vehicle> ShopClients = new List<Vehicle>();
-            ShopClients.Add(newTruck);
-            ShopClients.Add(newRaceCar);
-            ShopClients.Add(newSedan);
+
+
+
 
             Console.ReadLine();
         }
