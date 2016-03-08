@@ -15,6 +15,12 @@ namespace Week2Day2
             var newRaceCar = new RaceCar();
             var newSedan = new Sedan();
 
+            List<Vehicle> ShopClients = new List<Vehicle>();
+            ShopClients.Add(newTruck);
+            ShopClients.Add(newRaceCar);
+            ShopClients.Add(newSedan);
+
+            Console.ReadLine();
         }
     }
 
