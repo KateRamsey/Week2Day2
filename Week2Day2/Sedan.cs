@@ -11,5 +11,10 @@ namespace Week2Day2
             Type = "Sedan";
             TypeOfGas = GasType.Regular;
         }
+        public override string ToString()
+        {
+            return "Sedan";
+        }
+
     }
 }

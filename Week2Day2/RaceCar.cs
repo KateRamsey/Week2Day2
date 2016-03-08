@@ -11,5 +11,9 @@ namespace Week2Day2
             Type = "Race Car";
             TypeOfGas = GasType.HighPerformance;
         }
+        public override string ToString()
+        {
+            return "Race Car";
+        }
     }
 }
