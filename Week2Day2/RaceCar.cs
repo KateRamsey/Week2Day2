@@ -5,6 +5,10 @@ namespace Week2Day2
     {
         public RaceCar()
         {
+            GasTankEmpty = true;
+            OldTires = true;
+            OilDirty = true;
+            Type = "Race Car";
         }
     }
 }

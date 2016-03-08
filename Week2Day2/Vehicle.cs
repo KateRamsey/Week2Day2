@@ -14,5 +14,6 @@ namespace Week2Day2
         public bool GasTankEmpty { get; set; }
         public bool OldTires { get; set; }
         public bool OilDirty { get; set; }
+        public string Type { get; set; }
     }
 }

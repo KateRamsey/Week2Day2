@@ -5,6 +5,10 @@ namespace Week2Day2
     {
         public Sedan()
         {
+            GasTankEmpty = true;
+            OldTires = true;
+            OilDirty = true;
+            Type = "Sedan";
         }
     }
 }
