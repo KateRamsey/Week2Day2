@@ -2,6 +2,13 @@
 
 namespace Week2Day2
 {
+    public enum GasType
+    {
+        Regular,
+        HighPerformance,
+        Diesel
+    }
+
     public abstract class Vehicle
     {
         public bool GasTankEmpty { get; set; }
