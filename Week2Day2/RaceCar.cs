@@ -8,7 +8,6 @@ namespace Week2Day2
             GasTankEmpty = true;
             OldTires = true;
             OilDirty = true;
-            Type = "Race Car";
             TypeOfGas = GasType.HighPerformance;
         }
         public override string ToString()
