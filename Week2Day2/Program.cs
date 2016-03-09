@@ -21,7 +21,7 @@ namespace Week2Day2
             foreach(Vehicle v in AllVehicles)
             {
                 Console.WriteLine($"The {v}'s gas tank is empty: {v.GasTankEmpty}");
-                Console.WriteLine($"The {v}'s oil is durty: {v.OilDirty}");
+                Console.WriteLine($"The {v}'s oil is dirty: {v.OilDirty}");
                 Console.WriteLine($"The {v}'s tires are old: {v.OldTires}");
                 Console.WriteLine();
             }
@@ -44,7 +44,7 @@ namespace Week2Day2
             foreach (Vehicle v in AllVehicles)
             {
                 Console.WriteLine($"The {v}'s gas tank is empty: {v.GasTankEmpty}");
-                Console.WriteLine($"The {v}'s oil is durty: {v.OilDirty}");
+                Console.WriteLine($"The {v}'s oil is dirty: {v.OilDirty}");
                 Console.WriteLine($"The {v}'s tires are old: {v.OldTires}");
                 Console.WriteLine();
             }
